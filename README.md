@@ -8,7 +8,13 @@ source venv/bin/activate
 
 pip install pip-tools
 
-
+// Generate requirement.txt
 pip-compile requirements/requirements.in
 pip-compile requirements/requirements-dev.in
+
+
+//install dependencies.
+pip install -r requirements/requirements.txt
+pip install -r requirements/requirements-dev.txt
+
 
