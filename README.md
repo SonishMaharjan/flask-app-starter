@@ -17,4 +17,6 @@ pip-compile requirements/requirements-dev.in
 pip install -r requirements/requirements.txt
 pip install -r requirements/requirements-dev.txt
 
+pip install . // installs dependency from setup.py
+
 

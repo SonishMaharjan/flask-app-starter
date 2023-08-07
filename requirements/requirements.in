@@ -1,3 +1,4 @@
+#  Can Remove this: and add directly in setup.py with version.
 Flask
 flask-smorest
 python-dotenv
@@ -6,3 +7,5 @@ Flask-SQLAlchemy
 Flask-JWT-Extended
 passlib
 Flask-Migrate
+pydantic-settings
+Flask-injector
